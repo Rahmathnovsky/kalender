@@ -107,9 +107,9 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 
 .btn-main {
-  background: #223a66;
+  background: #4154f1;
   color: #fff;
-  border-color: #223a66;
+  border-color: #4154f1;
 }
 .btn-main:hover {
   background: #4154f1;
