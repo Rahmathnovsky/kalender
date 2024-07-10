@@ -137,6 +137,7 @@
               <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center justify-content-center ms-0 ms-md-4 mt-4 mt-md-0"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
             </div>
 
+            <!-- Start Enable OTP -->
             <div>
               <div class="mt-3">
                 <!-- Modal -->
@@ -146,13 +147,13 @@
                       <div class="modal-body">
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         <div class="text-center mb-4">
-                          <h3 class="mb-2">Log in</h3>
+                          <h3 class="mb-2">Join KALENDER</h3>
                           <p>or create a free account</p>
                         </div>
                         <p>Enter your mobile phone number with country code and we will send you a verification code.</p>
                         <form id="enableOTPForm" class="row g-3" onsubmit="return false">
                           <div class="col-12">
-                            <label class="form-label" for="modalEnableOTPPhone">Phone Number</label>
+                            <label class="form-label text-primary" for="modalEnableOTPPhone">Already have an account? <a href="#">Login.</a></label>
                             <div class="input-group">
                               <span class="input-group-text">ID (+62)</span>
                               <input
@@ -160,7 +161,7 @@
                                 id="modalEnableOTPPhone"
                                 name="modalEnableOTPPhone"
                                 class="form-control phone-number-otp-mask"
-                                placeholder="888 8" />
+                                placeholder="Enter your mobile number" />
                             </div>
                           </div>
                           <div class="col-12">
@@ -180,6 +181,7 @@
                 </div>
               </div>
             </div>
+            <!-- End Enable OTP -->
 
           </div>
           <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out">
@@ -274,12 +276,12 @@
         <p style="color: #4154f1;">Field of Study<br></p>
       </div>
 
-      <div class="container">
+      <div class="container" style="margin-top: -70px;">
 
         <div class="row gy-4">
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="card">
+            <div class="card" data-bs-toggle="modal" data-bs-target="#classONE">
               <img src="assets/img/studies/great-leader.png" class="img-fluid" alt="">
               <h3>To Be a Great Leader</h3>
               <p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
@@ -287,7 +289,7 @@
           </div>
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="card">
+            <div class="card" data-bs-toggle="modal" data-bs-target="#classTWO">
               <img src="assets/img/studies/good-management.png" class="img-fluid" alt="">
               <h3>Management Training</h3>
               <p>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.</p>
@@ -295,7 +297,7 @@
           </div>
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="card">
+            <div class="card" data-bs-toggle="modal" data-bs-target="#classTHREE">
               <img src="assets/img/studies/hard-soft-skill.png" class="img-fluid" alt="">
               <h3>Soft-Skill & Hard-Skill</h3>
               <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
@@ -308,6 +310,145 @@
 
     </section>
     <!-- /Values Section -->
+
+    <!-- Start Class One -->
+    <div>
+      <div class="mt-3 col-lg-8">
+        <!-- Modal -->
+        <div class="modal fade" id="classONE" tabindex="-1" aria-hidden="true">
+          <div class="modal-dialog modal-simple modal-enable-otp modal-dialog-centered">
+            <div class="modal-content p-3 p-md-5">
+              <div class="modal-body">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="text-center mb-4">
+                  <h3 class="mb-2">To Be a Great Leader</h3>
+                  <p>Favorite Class</p>
+                </div>
+                <img src="assets/img/hero-img.png" class="img-fluid" alt="">
+                <p>Enter your mobile phone number with country code and we will send you a verification code.</p>
+                <form id="enableOTPForm" class="row g-3" onsubmit="return false">
+                  <div class="col-12">
+                    <label class="form-label text-primary" for="modalEnableOTPPhone">Already have an account? <a href="#">Login.</a></label>
+                    <div class="input-group">
+                      <span class="input-group-text">ID (+62)</span>
+                      <input
+                        type="text"
+                        id="modalEnableOTPPhone"
+                        name="modalEnableOTPPhone"
+                        class="form-control phone-number-otp-mask"
+                        placeholder="Enter your mobile number" />
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-primary me-sm-3 me-1">Submit</button>
+                    <button
+                      type="reset"
+                      class="btn btn-label-secondary"
+                      data-bs-dismiss="modal"
+                      aria-label="Close">
+                      Cancel
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Class One -->
+     <!-- Start Class Two -->
+    <div>
+      <div class="mt-3">
+        <!-- Modal -->
+        <div class="modal fade" id="classTWO" tabindex="-1" aria-hidden="true">
+          <div class="modal-dialog modal-simple modal-enable-otp modal-dialog-centered">
+            <div class="modal-content p-3 p-md-5">
+              <div class="modal-body">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="text-center mb-4">
+                  <h3 class="mb-2">Management Training</h3>
+                  <p>Favorite Class</p>
+                </div>
+                <img src="assets/img/hero-img.png" class="img-fluid" alt="">
+                <p>Enter your mobile phone number with country code and we will send you a verification code.</p>
+                <form id="enableOTPForm" class="row g-3" onsubmit="return false">
+                  <div class="col-12">
+                    <label class="form-label" for="modalEnableOTPPhone">Already have an account? <a href="#">Log in</a></label>
+                    <div class="input-group">
+                      <span class="input-group-text">ID (+62)</span>
+                      <input
+                        type="text"
+                        id="modalEnableOTPPhone"
+                        name="modalEnableOTPPhone"
+                        class="form-control phone-number-otp-mask"
+                        placeholder="Enter your mobile number" />
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-primary me-sm-3 me-1">Submit</button>
+                    <button
+                      type="reset"
+                      class="btn btn-label-secondary"
+                      data-bs-dismiss="modal"
+                      aria-label="Close">
+                      Cancel
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Class Two -->
+     <!-- Start Class Three -->
+    <div>
+      <div class="mt-3">
+        <!-- Modal -->
+        <div class="modal fade" id="classTHREE" tabindex="-1" aria-hidden="true">
+          <div class="modal-dialog modal-simple modal-enable-otp modal-dialog-centered">
+            <div class="modal-content p-3 p-md-5">
+              <div class="modal-body">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="text-center mb-4">
+                  <h3 class="mb-2">Soft-Skill & Hard-Skill</h3>
+                  <p>Favorite Class</p>
+                </div>
+                <img src="assets/img/hero-img.png" class="img-fluid" alt="">
+                <p>Enter your mobile phone number with country code and we will send you a verification code.</p>
+                <form id="enableOTPForm" class="row g-3" onsubmit="return false">
+                  <div class="col-12">
+                    <label class="form-label" for="modalEnableOTPPhone">Already have an account? <a href="#">Log in</a></label>
+                    <div class="input-group">
+                      <span class="input-group-text">ID (+62)</span>
+                      <input
+                        type="text"
+                        id="modalEnableOTPPhone"
+                        name="modalEnableOTPPhone"
+                        class="form-control phone-number-otp-mask"
+                        placeholder="Enter your mobile number" />
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-primary me-sm-3 me-1">Submit</button>
+                    <button
+                      type="reset"
+                      class="btn btn-label-secondary"
+                      data-bs-dismiss="modal"
+                      aria-label="Close">
+                      Cancel
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Class Three -->
 
     <!-- Stats Section -->
     <!-- <section id="stats" class="stats section">
@@ -1163,10 +1304,10 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Clients</h2>
-        <p style="color: #4154f1;">We work with best clients<br></p>
+        <p style="color: #4154f1;">We work with best partners<br></p>
       </div><!-- End Section Title -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="container" style="margin-top: -70px;" data-aos="fade-up" data-aos-delay="100">
 
         <div class="swiper">
           <script type="application/json" class="swiper-config">
@@ -1203,21 +1344,20 @@
             }
           </script>
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/partner/xl.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/partner/vads.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/partner/mtf.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/partner/j&t.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/partner/gojek.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/partner/alodokter.png" class="img-fluid" alt=""></div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
 
       </div>
 
-    </section><!-- /Clients Section -->
+    </section>
+    <!-- /Clients Section -->
 
     <!-- Recent Posts Section -->
     <!-- <section id="recent-posts" class="recent-posts section">
